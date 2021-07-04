@@ -10,9 +10,7 @@ import UIKit
 
 class ScrollerView: UIView {
     var image: UIImageView?
-    var imageUrl: String? 
+    var imageUrl: String?
+    var xPosition: CGFloat?
     
-//    class func instanceFromNib() -> UIView {
-//        return Bundle.main.loadNibNamed("ScrollerView", owner: nil, options: nil)?.first as! ScrollerView
-//    }
 }

@@ -37,11 +37,12 @@
                             </collectionView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Hfe-NQ-fEZ">
                                 <rect key="frame" x="167" y="435" width="80" height="80"/>
-                                <color key="backgroundColor" red="0.85293485680404979" green="0.87951670536378612" blue="0.74186820724383506" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="SkO-4W-tTb"/>
                                     <constraint firstAttribute="height" constant="80" id="Yh0-XS-qhV"/>
                                 </constraints>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -77,16 +78,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pL4-Hk-25l">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pL4-Hk-25l">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </scrollView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="nmR-vV-bVK">
+                                <rect key="frame" x="167" y="413" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="W5A-9O-bxM"/>
+                                    <constraint firstAttribute="width" constant="80" id="d9C-VQ-f1B"/>
+                                </constraints>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iOB-d3-7PK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pL4-Hk-25l" firstAttribute="width" secondItem="fAp-5U-49A" secondAttribute="width" id="4d4-p9-ixD"/>
+                            <constraint firstItem="nmR-vV-bVK" firstAttribute="centerY" secondItem="iOB-d3-7PK" secondAttribute="centerY" id="BXe-Hu-0cE"/>
                             <constraint firstItem="iOB-d3-7PK" firstAttribute="bottom" secondItem="pL4-Hk-25l" secondAttribute="bottom" id="XKb-vR-0IO"/>
+                            <constraint firstItem="nmR-vV-bVK" firstAttribute="centerX" secondItem="iOB-d3-7PK" secondAttribute="centerX" id="f7w-UQ-yBp"/>
                             <constraint firstItem="iOB-d3-7PK" firstAttribute="trailing" secondItem="pL4-Hk-25l" secondAttribute="trailing" id="kNI-6j-FOP"/>
                             <constraint firstItem="pL4-Hk-25l" firstAttribute="top" secondItem="iOB-d3-7PK" secondAttribute="top" id="lXL-oG-bzV"/>
                             <constraint firstItem="pL4-Hk-25l" firstAttribute="leading" secondItem="iOB-d3-7PK" secondAttribute="leading" id="wBt-jY-Xcu"/>
@@ -94,11 +106,12 @@
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="pL4-Hk-25l" id="h9q-yr-lkU"/>
+                        <outlet property="spinner" destination="nmR-vV-bVK" id="TiH-o3-9yO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kP1-yh-XAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1991" y="90"/>
+            <point key="canvasLocation" x="1989.8550724637682" y="89.732142857142847"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kw5-sK-iym">

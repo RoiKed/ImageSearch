@@ -20,7 +20,6 @@
 		232F645F268F273900A413A7 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232F645E268F273900A413A7 /* CollectionCell.xib */; };
 		232F6462268F3FCC00A413A7 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F6461268F3FCC00A413A7 /* FullScreenViewController.swift */; };
 		232F646D268F90B100A413A7 /* ScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F646C268F90B100A413A7 /* ScrollerView.swift */; };
-		232F6471268F90BC00A413A7 /* ScrollerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232F6470268F90BC00A413A7 /* ScrollerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		232F645E268F273900A413A7 /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 		232F6461268F3FCC00A413A7 /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
 		232F646C268F90B100A413A7 /* ScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerView.swift; sourceTree = "<group>"; };
-		232F6470268F90BC00A413A7 /* ScrollerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 				232F6454268F02E000A413A7 /* CollectionCell.swift */,
 				232F645E268F273900A413A7 /* CollectionCell.xib */,
 				232F646C268F90B100A413A7 /* ScrollerView.swift */,
-				232F6470268F90BC00A413A7 /* ScrollerView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,7 +189,6 @@
 				232F642E268EE09600A413A7 /* Assets.xcassets in Resources */,
 				232F642C268EE09300A413A7 /* Main.storyboard in Resources */,
 				232F645F268F273900A413A7 /* CollectionCell.xib in Resources */,
-				232F6471268F90BC00A413A7 /* ScrollerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
